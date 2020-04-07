@@ -1,0 +1,89 @@
+body {
+    background-color: #0a1c74;
+    text-align: center;
+}
+
+textarea {
+    width: 744px;
+    height: 300px;
+    background-color: #7d8ecf;
+    resize: none;
+    font-family: 'Times New Roman', Times;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.vkeyboard {
+width: 800px;
+margin: 0 auto;     
+}
+
+.vkeyboard__key {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #101b38;
+    color: #a0b0ff;
+    margin: 5px;
+    font-family: 'Times New Roman', Times;
+    font-size: 14px;
+    transition: 0.1s;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.vkeyboard__key_active {
+    background-color: #136a5c !important;
+    border-radius: 6px;
+}
+
+.vkeyboard__key:hover {
+    background-color: #1dbbd5;
+}
+
+.ShiftLeft {
+    width: 100px;
+    background-color: #ff0101;
+}
+
+.AltLeft {
+    background-color: #ff0101;
+}
+
+.ShiftRight {
+    width: 90px;
+}
+
+.Space {
+    width: 350px;
+    font-weight: normal;
+    font-style: italic;
+    color: #136a5c;
+    font-size: 13px;
+}
+.Backspace {
+    width: 100px;
+}
+
+.Tab, .Backslash {
+    width: 70px;
+}
+
+.CapsLock {
+    width: 75px;
+}
+
+.Enter {
+    width: 115px;
+}
+
